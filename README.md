@@ -1,7 +1,15 @@
-### Setup
-Install docker
+### Requirements
+Docker
+Redis (docker or any redis server)
 
+### Install node modules
 ```
-$ brew install mongodb-atlas-cli //installs mongodb atlas
-$ docker run -d --name redis-server -p 6379:6379 redis //setup redis using docker
+$ npm install
+```
+
+### Start
+```
+$ npm run start
+or 
+$ npm run dev    // hotreload
 ```
